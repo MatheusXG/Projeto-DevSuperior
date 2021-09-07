@@ -1,9 +1,17 @@
-import React from 'react';
+import './assets/css/styles.css';
+import NavBar from './components/NavBar/index'
+import Footer from './components/Footer/index'
+import DataTable from './components/DataTable/index'
 
 function App() {
   return (
-    <div >
-    </div>
+    <>
+      <NavBar />
+      <div className="container">
+          <DataTable />
+      </div>
+      <Footer />
+    </>
   );
 }
 
