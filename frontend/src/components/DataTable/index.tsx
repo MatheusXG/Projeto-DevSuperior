@@ -1,7 +1,9 @@
+import React from 'react';
+
 export default function DataTable () {
     return (
         <div className="table-responsive">
-            <table className="table table-striped table-sm">
+            <table className="table table-hover">
                 <thead>
                     <tr>
                         <th>Data</th>
